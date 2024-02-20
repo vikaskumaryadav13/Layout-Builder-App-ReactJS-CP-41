@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.controller-section {
+  background-color: #475569;
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.controller-section > div {
+  width: 90%;
+  margin: auto;
+}
+
+.controller-section h1 {
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin: 0;
+  margin-bottom: 21px;
+}
+
+.input-container {
+  display: flex;
+  gap: 11px;
+  margin-top: 14px;
+}
+.input-container input {
+  cursor: pointer;
+  outline: none;
+}
+.input-container label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 550;
+  cursor: pointer;
+}

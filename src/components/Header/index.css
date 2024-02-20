@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.header {
+  background-color: #cbd5e1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.header h1 {
+  color: #475569;
+  font-family: 'Roboto';
+}

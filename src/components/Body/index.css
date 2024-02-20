@@ -1,0 +1,112 @@
+/* Write your CSS here */
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+@media screen and (min-width: 768px) {
+  .body {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.left-nav-bar,
+.right-nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+  background-color: #e2e8f0;
+}
+.body h1 {
+  font-size: 21px;
+  text-align: center;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .body h1 {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 768px) {
+  .left-nav-bar,
+  .right-nav-bar {
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 31px 21px;
+    width: 31%;
+    flex-shrink: 0;
+  }
+}
+.left-nav-bar ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style-type: none;
+  gap: 26px;
+}
+@media screen and (min-width: 768px) {
+  .left-nav-bar ul {
+    flex-direction: column;
+    margin-left: 21px;
+  }
+}
+.left-nav-bar ul li {
+  font-family: 'Roboto';
+  font-size: 21px;
+}
+
+.boxes-container {
+  display: flex;
+  gap: 11px;
+  margin-top: 11px;
+}
+.boxes-container div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 450;
+  font-family: 'Roboto';
+  border: 1px solid #000000;
+  height: 152px;
+  width: 100px;
+  font-size: 21px;
+}
+@media screen and (min-width: 768px) {
+  .boxes-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .boxes-container div {
+    width: 90%;
+    max-width: 182px;
+    height: 131px;
+  }
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 31px;
+  background-color: #f1f5f9;
+}
+
+.content-container p {
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 17px;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .content-container {
+    justify-content: flex-start;
+    align-items: stretch;
+  }
+  .content-container p {
+    text-align: left;
+  }
+}

@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.footer {
+  background-color: #cbd5e1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.footer h1 {
+  color: #475569;
+  font-family: 'Roboto';
+}

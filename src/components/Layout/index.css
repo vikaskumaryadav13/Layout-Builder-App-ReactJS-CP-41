@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.layout-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 31px;
+  padding-bottom: 31px;
+}
+.layout-section > div {
+  width: 90%;
+  max-width: 1145px;
+  margin: auto;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5px;
+}
+@media screen and (min-width: 768px) {
+  .layout-section > div {
+    justify-content: space-between;
+    gap: 7px;
+  }
+}
